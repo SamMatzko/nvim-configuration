@@ -1,7 +1,7 @@
 " Plugin management for vim-plug
 call plug#begin()
 
-Plug 'ayu-theme/ayu-vim'			" Ayu colorscheme
+Plug 'SamMatzko/ayu-vim'			" Ayu colorscheme, customized by SamMatzko (myself)
 Plug 'neoclide/coc.nvim', {'branch': 'release'}	" Extension host (for installing language servers and such)
 
 call plug#end()
