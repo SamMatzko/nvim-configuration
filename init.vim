@@ -2,7 +2,6 @@
 call plug#begin()
 
 Plug 'ayu-theme/ayu-vim'			" Ayu colorscheme
-Plug 'projekt0n/github-nvim-theme'		" Github colorschemes
 Plug 'neoclide/coc.nvim', {'branch': 'release'}	" Extension host (for installing language servers and such)
 
 call plug#end()
