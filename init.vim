@@ -3,6 +3,7 @@ call plug#begin()
 
 Plug 'SamMatzko/ayu-vim'			" Ayu colorscheme, customized by SamMatzko (myself)
 Plug 'neoclide/coc.nvim', {'branch': 'release'}	" Extension host (for installing language servers and such)
+Plug 'tpope/vim-fugitive'			" Git plugin
 
 call plug#end()
 
@@ -18,7 +19,7 @@ set nu					" Enable showing line numbers. Used in combination with `rnu` to disp
 " Keybinding configurations
 
 " Sets the keybinding for accepting autocomplete to <Tab>
-inoremap <silent><expr> <Tab>
-      \ coc#pum#visible() ? coc#pum#next(1) :
-      \ check_back_space() ? "\<Tab>" :
-      \ coc#refresh()
+" inoremap <silent><expr> <Tab>
+"       \ coc#pum#visible() ? coc#pum#next(1) :
+"       \ check_back_space() ? "\<Tab>" :
+"       \ coc#refresh()
