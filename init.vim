@@ -1,3 +1,10 @@
+" Set the tab to use spaces, and set the tab width to 4
+set expandtab
+set relativenumber
+set shiftwidth=4
+set tabstop=4
+
+
 " Plugin management for vim-plug
 call plug#begin()
 
